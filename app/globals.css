@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-inter: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme("colors.stone.500") transparent;
+}
+
+body {
+  background-color: theme("colors.cream.50");
+  color: theme("colors.stone.900");
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+.dark body {
+  background-color: theme("colors.night.900");
+  color: theme("colors.cream.100");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-paper {
+  background-color: theme("colors.cream.50");
+  background-image: theme("backgroundImage.grain");
+  background-size: 18px 18px;
+}
+
+.dark .bg-paper {
+  background-color: theme("colors.night.900");
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(232, 206, 134, 0.06) 1px,
+    transparent 0
+  );
+  background-size: 18px 18px;
+}
+
+.divider-navy {
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    theme("colors.navy.400"),
+    transparent
+  );
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
