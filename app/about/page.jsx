@@ -76,21 +76,21 @@ const figures = [
     name: "Remy",
     role: "The Unseen Genius",
     image:
-      "https://images.unsplash.com/photo-1548943487-a2e4e43b4853?w=800&q=80",
+      "https://images.unsplash.com/photo-1541614101331-1a5a3a194e92?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNoZWZ8ZW58MHx8MHx8fDA%3D",
     bio: "A brilliant palate with an unlikely origin story. Remy's instinct for pairing flavor — sweet against sharp, herb against fat — reshaped the menu from the shadows of the kitchen.",
   },
   {
     name: "Colette Tatou",
     role: "Head Chef",
     image:
-      "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2hlZnxlbnwwfHwwfHx8MA%3D%3D",
+      "https://images.unsplash.com/photo-1731576089270-9e806089a40f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlZiUyMGdpcmwufGVufDB8fDB8fHww",
     bio: "Sharp, disciplined, and fiercely protective of her kitchen's standards. Colette's rule is simple: keep your station clean, and something wonderful will happen.",
   },
   {
     name: "Linguini",
     role: "The Newest Commis",
     image:
-      "https://images.unsplash.com/photo-1739140597655-ff582775baeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TGluZ3Vpbml8ZW58MHx8MHx8fDA%3D",
+      "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlZnxlbnwwfHwwfHx8MA%3D%3D",
     bio: "Gawky, earnest, and utterly out of his depth on his first night — yet somehow the dishes leaving his station kept turning out extraordinary. Nobody could quite explain why.",
   },
 ];
@@ -198,7 +198,7 @@ export default function AboutPage() {
             className="h-full w-full object-cover"
             controls
             preload="metadata"
-            poster="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1600&q=80"
+            poster="https://images.unsplash.com/photo-1629407119384-d42320c3e576?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdXBsZSUyMGNvb2tpbmclMjBpbiUyMGtpdGNoZW58ZW58MHx8MHx8fDA%3D"
           >
             <source
               src="https://assets.mixkit.co/videos/47555/47555-720.mp4"

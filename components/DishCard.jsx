@@ -51,7 +51,9 @@ export default function DishCard({ dish, index = 0 }) {
       >
         <Heart
           className={`h-4 w-4 transition-colors ${
-            wishlisted ? "fill-navy-500 text-navy-500" : "text-navy-500 dark:text-navy-100"
+            wishlisted
+              ? "fill-navy-500 text-navy-500"
+              : "text-navy-500 dark:text-navy-100"
           }`}
         />
       </button>
